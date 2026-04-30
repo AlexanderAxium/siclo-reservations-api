@@ -33,6 +33,11 @@ auth:
   jwt:
     enabled: true
 
+app:
+  cors:
+    # Comma-separated list. Override per environment.
+    allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:3000,http://localhost:3001,https://siclodata.emetstudio.com}
+
 server:
   port: 8080
   servlet:
