@@ -36,7 +36,7 @@ auth:
 app:
   cors:
     # Comma-separated list. Override per environment.
-    allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:3000,http://localhost:3001,https://siclodata.emetstudio.com}
+    allowed-origins: ${CORS_ALLOWED_ORIGINS:http://localhost:3000,http://localhost:3001,https://siclodata.axium.com.pe}
 
 server:
   port: 8080
